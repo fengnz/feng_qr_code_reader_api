@@ -1,5 +1,5 @@
 {
-  "name": "claude",
+  "name": "qr-decoder-api",
   "version": "1.0.0",
   "description": "QR Code Decoder API - A Node.js web API that decodes QR codes from image URLs",
   "main": "qr-decoder-api.js",
@@ -10,11 +10,20 @@
   },
   "repository": {
     "type": "git",
-    "url": "http://local_proxy@127.0.0.1:56759/git/fengnz/claude"
+    "url": "https://github.com/fengnz/feng_qr_code_reader_api.git"
   },
-  "keywords": [],
+  "keywords": [
+    "qr-code",
+    "qr-decoder",
+    "api",
+    "express",
+    "nodejs"
+  ],
   "author": "",
   "license": "ISC",
+  "engines": {
+    "node": ">=14.x"
+  },
   "dependencies": {
     "axios": "^1.13.2",
     "express": "^5.1.0",
